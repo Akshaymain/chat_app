@@ -1,0 +1,27 @@
+{
+  "name": "chat_app",
+  "version": "1.0.0",
+  "description": "Realtime chat app using socket.io",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./src/index.js",
+    "dev": "nodemon ./src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Akshaymain/chat_app.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Akshaymain/chat_app/issues"
+  },
+  "homepage": "https://github.com/Akshaymain/chat_app#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
