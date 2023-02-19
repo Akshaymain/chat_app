@@ -16,9 +16,6 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: "12.x"
-      - run: |
-          npm i
-          npm start
 
       - name: Sync files and deploy to server
         uses: SamKirkland/FTP-Deploy-Action@4.1.0
@@ -26,4 +23,8 @@ jobs:
           server: ${{ secrets.HOST_NAME }}
           username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
-          local-dir: ./src/
+          local-dir: ./
+
+      - run: |
+          npm i
+          npm start
