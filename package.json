@@ -1,6 +1,6 @@
 {
   "name": "chat_app",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Realtime chat app using socket.io",
   "main": "index.js",
   "scripts": {
